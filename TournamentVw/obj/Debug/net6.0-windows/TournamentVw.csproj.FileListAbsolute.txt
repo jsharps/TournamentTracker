@@ -1,0 +1,17 @@
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TournamentVw.exe
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TournamentVw.deps.json
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TournamentVw.runtimeconfig.json
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TournamentVw.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TournamentVw.pdb
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.csproj.AssemblyReference.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.Form1.resources
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.csproj.GenerateResource.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.AssemblyInfoInputs.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.AssemblyInfo.cs
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.csproj.CoreCompileInputs.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\refint\TournamentVw.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.pdb
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.genruntimeconfig.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\ref\TournamentVw.dll

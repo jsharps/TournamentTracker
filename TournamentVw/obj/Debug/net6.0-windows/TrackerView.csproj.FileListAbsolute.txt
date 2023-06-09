@@ -1,0 +1,17 @@
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TrackerView.exe
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TrackerView.deps.json
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TrackerView.runtimeconfig.json
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TrackerView.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\TrackerView.pdb
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.csproj.AssemblyReference.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TournamentVw.Form1.resources
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.csproj.GenerateResource.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.AssemblyInfoInputs.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.AssemblyInfo.cs
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.csproj.CoreCompileInputs.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\refint\TrackerView.dll
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.pdb
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\TrackerView.genruntimeconfig.cache
+C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\ref\TrackerView.dll

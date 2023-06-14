@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="11913a01-d44d-4c02-8dcc-a2b9355c56e2" ChangeDateTime="06/14/2023 10:28:02">
+    <Property Name="ElementName" Value="[dbo].[Prizes].[Placenumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Prizes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlaceNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37209060-b345-41c5-adef-bd102792947c" ChangeDateTime="06/14/2023 10:28:14">
+    <Property Name="ElementName" Value="[dbo].[Prizes].[PlacenAme]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Prizes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlaceName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cea92aec-25fc-4a7c-a92b-7a385a0e81f6" ChangeDateTime="06/14/2023 11:47:55">
+    <Property Name="ElementName" Value="[dbo].[FK_Tournaments_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Tournaments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Tournaments_ToTeams]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fbff1107-2301-491b-b96e-be3c9e15cc5c" ChangeDateTime="06/14/2023 11:49:56">
+    <Property Name="ElementName" Value="[dbo].[Tournaments].[TournamentIDd]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tournaments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TournamentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c04c75a-b89d-4508-ad7d-6b5456937bb9" ChangeDateTime="06/14/2023 11:50:17">
+    <Property Name="ElementName" Value="[dbo].[Tournaments].[TournamentId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tournaments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TournamentName" />
+  </Operation>
+</Operations>

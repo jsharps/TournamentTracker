@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JeffManrique\\.nuget\\packages\\": {}
+    "C:\\Users\\extjmanrique\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+      "projectUniqueName": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
       "projectName": "TrackerUI",
-      "projectPath": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
-      "packagesPath": "C:\\Users\\JeffManrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
+      "projectPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+      "packagesPath": "C:\\Users\\extjmanrique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JeffManrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\extjmanrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,8 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://odfjell.pkgs.visualstudio.com/_packaging/OdfjellNugetPackages/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {

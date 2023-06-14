@@ -10,3 +10,13 @@
 /.vs/VSWorkspaceState.json
 /TournamentVw/obj/Release/net6.0-windows
 /.vs/TournamentTracker/v17/TestStore/0
+/TrackerLibrary/obj/Debug/net6.0/TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/TrackerLibrary/obj/Debug/net6.0/TrackerLibrary.assets.cache
+/TrackerLibrary/obj/project.nuget.cache
+/TrackerLibrary/obj/TrackerLibrary.csproj.nuget.dgspec.json
+/.vs/TournamentTracker/v17/.suo
+/.vs/TournamentTracker/v17/.wsuo
+/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.assets.cache
+/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.deps.json
+/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.runtimeconfig.json
+/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.GeneratedMSBuildEditorConfig.editorconfig

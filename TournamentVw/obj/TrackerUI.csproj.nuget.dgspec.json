@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj": {}
+    "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj": {
+    "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+        "projectUniqueName": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
         "projectName": "TrackerUI",
-        "projectPath": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+        "projectPath": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
         "packagesPath": "C:\\Users\\JeffManrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
+        "outputPath": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JeffManrique\\AppData\\Roaming\\NuGet\\NuGet.Config",

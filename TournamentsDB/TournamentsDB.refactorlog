@@ -35,4 +35,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TournamentName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="8f67024c-c58a-42c8-a2da-45d74515d1a0" ChangeDateTime="06/14/2023 11:56:02">
+    <Property Name="ElementName" Value="[dbo].[FK_TournamentPrizes_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TournamentPrizes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TournamentPrizes_ToTournaments]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39c33ea6-4d1a-4b55-95f2-e58e93d46a14" ChangeDateTime="06/14/2023 11:57:50">
+    <Property Name="ElementName" Value="[dbo].[FK_TournamentPrizes_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TournamentPrizes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TournamentPrizes_ToPrizes]" />
+  </Operation>
 </Operations>

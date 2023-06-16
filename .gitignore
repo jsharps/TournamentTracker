@@ -20,4 +20,8 @@
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.deps.json
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.runtimeconfig.json
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
+/TournamentVw/obj/project.nuget.cache
+/TournamentVw/obj/TrackerUI.csproj.nuget.dgspec.json
 /.vs/TournamentTracker/v17/.futdcache.v2
+/TournamentsDB/TournamentsDB.dbmdl
+/TournamentsDB/TournamentsDB.jfm

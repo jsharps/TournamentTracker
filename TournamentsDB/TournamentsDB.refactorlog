@@ -49,4 +49,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_TournamentPrizes_ToPrizes]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4133e014-6a97-4aca-9561-7b4686629a56" ChangeDateTime="06/16/2023 10:32:01">
+    <Property Name="ElementName" Value="[dbo].[FK_TournamentEntries_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TournamentEntries]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TournamentEntries_ToTournament]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f8021fd-514b-42ff-8b4d-3c33db7e7bcc" ChangeDateTime="06/16/2023 10:32:53">
+    <Property Name="ElementName" Value="[dbo].[FK_TournamentEntries_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TournamentEntries]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TournamentEntries_ToTeams]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="efc55cd1-ab7a-45a8-bb61-ae38da7d340f" ChangeDateTime="06/16/2023 10:35:47">
+    <Property Name="ElementName" Value="[dbo].[Matchups].[WinnerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Matchups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WinnerTeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="689df3e5-08c7-4260-b8c1-40d82874178e" ChangeDateTime="06/16/2023 10:37:12">
+    <Property Name="ElementName" Value="[dbo].[FK_TeamMembers_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TeamMembers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TeamMembers_ToTeams]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="86ce19b0-44e4-43b1-b4c9-145c4d65d8bf" ChangeDateTime="06/16/2023 10:37:20">
+    <Property Name="ElementName" Value="[dbo].[FK_TeamMembers_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TeamMembers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TeamMembers_ToPlayers]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8a2f502-13d5-45c7-bf43-7ce502d6ca05" ChangeDateTime="06/16/2023 12:06:16">
+    <Property Name="ElementName" Value="[dbo].[MatchupEntries].[TeamCompetingiD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MatchupEntries]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TeamCompetingId" />
+  </Operation>
 </Operations>

@@ -56,5 +56,23 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TournamentsDB.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Prizes.sql" />
+    <Build Include="dbo\Players.sql" />
+    <Build Include="dbo\Matchups.sql" />
+    <Build Include="dbo\MatchupEntries.sql" />
+    <Build Include="dbo\Teams.sql" />
+    <Build Include="dbo\TeamMembers.sql" />
+    <Build Include="dbo\Tournaments.sql" />
+    <Build Include="dbo\TournamentEntries.sql" />
+    <Build Include="dbo\TournamentPrizes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TournamentsDB.refactorlog" />
   </ItemGroup>
 </Project>

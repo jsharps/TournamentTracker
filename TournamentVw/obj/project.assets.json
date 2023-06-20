@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "TrackerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TrackerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrackerLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TrackerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TrackerLibrary/TrackerLibrary.csproj",
+      "msbuildProject": "../TrackerLibrary/TrackerLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "TrackerLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\extjmanrique\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+      "projectUniqueName": "C:\\Users\\extjmanrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
       "projectName": "TrackerUI",
-      "projectPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
+      "projectPath": "C:\\Users\\extjmanrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\TrackerUI.csproj",
       "packagesPath": "C:\\Users\\extjmanrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
+      "outputPath": "C:\\Users\\extjmanrique\\source\\repos\\jsharps\\TournamentTracker\\TournamentVw\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\extjmanrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\extjmanrique\\source\\repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+              "projectPath": "C:\\Users\\extjmanrique\\source\\repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -57,22 +57,25 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="dbo" />
+    <Folder Include="dbo\tables" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TournamentsDB.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Prizes.sql" />
-    <Build Include="dbo\Players.sql" />
-    <Build Include="dbo\Matchups.sql" />
     <Build Include="dbo\MatchupEntries.sql" />
-    <Build Include="dbo\Teams.sql" />
-    <Build Include="dbo\TeamMembers.sql" />
-    <Build Include="dbo\Tournaments.sql" />
-    <Build Include="dbo\TournamentEntries.sql" />
-    <Build Include="dbo\TournamentPrizes.sql" />
+    <Build Include="dbo\tables\Matchups.sql" />
+    <Build Include="dbo\tables\Players.sql" />
+    <Build Include="dbo\tables\Prizes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TournamentsDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\tables\TeamMembers.sql" />
+    <Build Include="dbo\tables\Teams.sql" />
+    <Build Include="dbo\tables\TournamentEntries.sql" />
+    <Build Include="dbo\tables\TournamentPrizes.sql" />
+    <Build Include="dbo\tables\Tournaments.sql" />
   </ItemGroup>
 </Project>

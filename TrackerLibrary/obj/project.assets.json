@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\extjmanrique\\.nuget\\packages\\": {}
+    "C:\\Users\\JeffManrique\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
       "projectName": "TrackerLibrary",
-      "projectPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
-      "packagesPath": "C:\\Users\\extjmanrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\extjmanrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\obj\\",
+      "projectPath": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+      "packagesPath": "C:\\Users\\JeffManrique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JeffManrique\\Source\\Repos\\jsharps\\TournamentTracker\\TrackerLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\extjmanrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JeffManrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://odfjell.pkgs.visualstudio.com/_packaging/OdfjellNugetPackages/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

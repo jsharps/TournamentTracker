@@ -26,6 +26,29 @@
 		/// The number that receprsents the perctage of the overall take
 		/// or zero if it is not user. The percentage is a fraction of (so 0.5 for 50%)
 		/// </summary>
-		public decimal PricePercentage { get; set; }
-	}
+		public double PricePercentage { get; set; }
+
+        public PrizeModel()
+        {
+            
+        }
+
+		public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage)
+		{
+			PlaceName = placeName;
+
+			int placeNumberValue = 0;
+			int.TryParse(placeNumber, out placeNumberValue);
+			PlaceNumber = placeNumberValue;
+
+			decimal prizeAmountValue = 0;
+			decimal.TryParse(prizeAmount, out prizeAmountValue);
+			PrizeAmount = prizeAmountValue;
+
+			double prizePercentageValue = 0;
+			double.TryParse(prizePercentage, out prizePercentageValue);
+            PricePercentage = prizePercentageValue;
+
+        }
+    }
 }

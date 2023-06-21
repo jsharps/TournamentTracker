@@ -27,3 +27,6 @@
 /TournamentsDB/TournamentsDB.jfm
 /.vs/TournamentTracker/FileContentIndex
 /TournamentVw/obj/project.assets.json
+/TournamentVw/obj/Release/net6.0-windows/TrackerUI.assets.cache
+/TournamentVw/obj/Release/net6.0-windows/TrackerUI.csproj.AssemblyReference.cache
+/TournamentVw/obj/Release/net6.0-windows/TrackerUI.GeneratedMSBuildEditorConfig.editorconfig

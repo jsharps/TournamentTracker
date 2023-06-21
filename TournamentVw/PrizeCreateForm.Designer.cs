@@ -35,7 +35,7 @@
             label3 = new Label();
             prizeAmountValue = new TextBox();
             label4 = new Label();
-            prizePercantageValue = new TextBox();
+            prizePercentageValue = new TextBox();
             label5 = new Label();
             label6 = new Label();
             createPrizeButton = new Button();
@@ -100,6 +100,7 @@
             prizeAmountValue.Name = "prizeAmountValue";
             prizeAmountValue.Size = new Size(788, 71);
             prizeAmountValue.TabIndex = 34;
+            prizeAmountValue.Text = "0";
             // 
             // label4
             // 
@@ -112,14 +113,15 @@
             label4.TabIndex = 33;
             label4.Text = "Prize Amount";
             // 
-            // prizePercantageValue
+            // prizePercentageValue
             // 
-            prizePercantageValue.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            prizePercantageValue.Location = new Point(563, 543);
-            prizePercantageValue.Margin = new Padding(0);
-            prizePercantageValue.Name = "prizePercantageValue";
-            prizePercantageValue.Size = new Size(788, 71);
-            prizePercantageValue.TabIndex = 36;
+            prizePercentageValue.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            prizePercentageValue.Location = new Point(563, 543);
+            prizePercentageValue.Margin = new Padding(0);
+            prizePercentageValue.Name = "prizePercentageValue";
+            prizePercentageValue.Size = new Size(788, 71);
+            prizePercentageValue.TabIndex = 36;
+            prizePercentageValue.Text = "0";
             // 
             // label5
             // 
@@ -163,7 +165,7 @@
             ClientSize = new Size(1449, 816);
             Controls.Add(createPrizeButton);
             Controls.Add(label6);
-            Controls.Add(prizePercantageValue);
+            Controls.Add(prizePercentageValue);
             Controls.Add(label5);
             Controls.Add(prizeAmountValue);
             Controls.Add(label4);
@@ -172,7 +174,7 @@
             Controls.Add(placeNumberValue);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(6, 6, 6, 6);
+            Margin = new Padding(6);
             Name = "PrizeCreateForm";
             Text = "CreatePrizeForm";
             ResumeLayout(false);
@@ -188,7 +190,7 @@
         private Label label3;
         private TextBox prizeAmountValue;
         private Label label4;
-        private TextBox prizePercantageValue;
+        private TextBox prizePercentageValue;
         private Label label5;
         private Label label6;
         private Button createPrizeButton;

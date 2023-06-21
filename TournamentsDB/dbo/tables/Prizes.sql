@@ -5,4 +5,5 @@
     [PlaceName] NVARCHAR(50) NOT NULL, 
     [PrizeAmount] MONEY NOT NULL, 
     [PrizePercentage] FLOAT NOT NULL, 
+    CONSTRAINT [PK_Prizes] PRIMARY KEY (Id) 
 )

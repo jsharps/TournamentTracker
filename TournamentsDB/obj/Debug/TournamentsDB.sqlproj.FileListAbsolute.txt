@@ -8,3 +8,9 @@ C:\Users\extjmanrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\D
 C:\Users\extjmanrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\predeploy.sql
 C:\Users\extjmanrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\TournamentsDB.dll
 C:\Users\extjmanrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\TournamentsDB.pdb
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\bin\Debug\TournamentsDB.dacpac
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\TournamentsDB.sqlproj.AssemblyReference.cache
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\TournamentsDB.dll
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\obj\Debug\TournamentsDB.pdb
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\bin\Debug\TournamentsDB.dll
+C:\Users\JeffManrique\Source\Repos\jsharps\TournamentTracker\TournamentsDB\bin\Debug\TournamentsDB.pdb

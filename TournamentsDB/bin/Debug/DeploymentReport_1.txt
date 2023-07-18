@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[MatchupEntries] (Table)
+       [dbo].[Matchups] (Table)
+       [dbo].[Players] (Table)
+       [dbo].[Prizes] (Table)
+       [dbo].[TeamMembers] (Table)
+       [dbo].[Teams] (Table)
+       [dbo].[TournamentEntries] (Table)
+       [dbo].[TournamentPrizes] (Table)
+       [dbo].[Tournaments] (Table)
+       [dbo].[FK_MatchupEntries_ToMatchups1] (Foreign Key)
+       [dbo].[FK_MatchupEntries_ToMatchups2] (Foreign Key)
+       [dbo].[FK_TeamMembers_ToTeams] (Foreign Key)
+       [dbo].[FK_TeamMembers_ToPlayers] (Foreign Key)
+       [dbo].[FK_TournamentEntries_ToTournament] (Foreign Key)
+       [dbo].[FK_TournamentEntries_ToTeams] (Foreign Key)
+       [dbo].[FK_TournamentPrizes_ToTournaments] (Foreign Key)
+       [dbo].[FK_TournamentPrizes_ToPrizes] (Foreign Key)
+       [dbo].[FK_Tournaments_ToTeams] (Foreign Key)
+       [dbo].[spPrizes_Insert] (Procedure)
+
+** Supporting actions

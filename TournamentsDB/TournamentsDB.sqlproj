@@ -57,7 +57,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="dbo" />
-    <Folder Include="dbo\tables" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TournamentsDB.publish.xml" />
@@ -67,6 +68,7 @@
     <Build Include="dbo\tables\Matchups.sql" />
     <Build Include="dbo\tables\Players.sql" />
     <Build Include="dbo\tables\Prizes.sql" />
+    <Build Include="dbo\StoredProcedures\spPrizes_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TournamentsDB.refactorlog" />

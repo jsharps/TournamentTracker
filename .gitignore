@@ -35,3 +35,5 @@
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.csproj.AssemblyReference.cache
 /TrackerLibrary/obj/Debug/net6.0/ref/TrackerLibrary.dll
 /TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.pdb
+*.txt
+/TournamentsDB

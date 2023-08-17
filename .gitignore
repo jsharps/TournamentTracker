@@ -37,3 +37,7 @@
 /TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.pdb
 *.txt
 /TournamentsDB
+/TournamentVw/bin/Debug/net6.0-windows/TrackerLibrary.dll
+/TournamentVw/bin/Debug/net6.0-windows/TrackerUI.dll
+/TournamentVw/bin/Debug/net6.0-windows/TrackerUI.exe
+/TournamentVw/bin/Debug/net6.0-windows/TrackerUI.pdb

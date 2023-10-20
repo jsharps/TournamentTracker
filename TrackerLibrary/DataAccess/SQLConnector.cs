@@ -11,7 +11,7 @@ namespace TrackerLibrary.DataAccess
 {
     public class SQLConnector : IDataConnection
     {
-        public PersonModel CreatePerson(PersonModel model)
+        public PlayerModel CreatePlayer(PlayerModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString("Tournaments")))
             {

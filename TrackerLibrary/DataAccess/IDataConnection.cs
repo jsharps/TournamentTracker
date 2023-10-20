@@ -11,6 +11,6 @@ namespace TrackerLibrary.DataAccess
     {
         PrizeModel CreatePrize(PrizeModel model);
 
-        PersonModel CreatePerson(PersonModel model);
+        PlayerModel CreatePlayer(PlayerModel model);
     }
 }

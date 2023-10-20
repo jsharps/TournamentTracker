@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents one person.
     /// </summary>
-    public class PersonModel
+    public class PlayerModel
     {
         /// <summary>
         /// The first name of the person.

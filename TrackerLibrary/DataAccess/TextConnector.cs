@@ -13,10 +13,24 @@ namespace TrackerLibrary.DataAccess
     public class TextConnector : IDataConnection
     {
         private const string PrizesFile = "PrizeModels.csv";
+        private const string PlayersFile = "PlayerModels.csv";
 
-        public PersonModel CreatePerson(PersonModel model)
+        public PlayerModel CreatePlayer(PlayerModel model)
         {
-            throw new NotImplementedException();
+            // Load the text file
+            // Convert the text to List<PlayerModel>
+            List<PlayerModel> player = PlayersFile.FullFilePath().LoadFile().ConvertToPlayerModels();
+
+            int currentId = player.Count > 0 ? 
+                player.OrderByDescending(x => x.Id).First().Id + 1 : 1;
+
+            model.Id = currentId;
+
+            player.Add(model);
+
+            player.SaveToPlayerFile(PlayersFile);
+
+            return model;
         }
 
         public PrizeModel CreatePrize(PrizeModel model)

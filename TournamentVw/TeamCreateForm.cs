@@ -23,7 +23,7 @@ namespace TrackerUI
         {
             if (ValidateForm())
             {
-                PersonModel p = new PersonModel()
+                PlayerModel p = new PlayerModel()
                 {
                     FirstName = firstNameTextBox.Text,
                     LastName = lastNameTextBox.Text,
@@ -31,7 +31,7 @@ namespace TrackerUI
                     CellphoneNumber = phoneTextBox.Text
                 };
 
-                GlobalConfig.Connection.CreatePerson(p);
+                GlobalConfig.Connection.CreatePlayer(p);
                 
                 firstNameTextBox.Text = string.Empty;
                 lastNameTextBox.Text = string.Empty;

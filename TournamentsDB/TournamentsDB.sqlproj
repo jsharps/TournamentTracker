@@ -64,11 +64,12 @@
     <None Include="TournamentsDB.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\MatchupEntries.sql" />
     <Build Include="dbo\tables\Matchups.sql" />
     <Build Include="dbo\tables\Players.sql" />
     <Build Include="dbo\tables\Prizes.sql" />
     <Build Include="dbo\StoredProcedures\spPrizes_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spPlayer_Insert.sql" />
+    <Build Include="dbo\Tables\MatchupEntries.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TournamentsDB.refactorlog" />

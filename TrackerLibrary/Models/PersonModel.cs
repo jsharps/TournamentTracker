@@ -24,5 +24,10 @@
         /// The primary cell phone number of the person.
         /// </summary>
         public string CellphoneNumber { get; set; } = string.Empty;
+
+        /// <summary>
+        /// The ID of the person.
+        /// </summary>
+        public int Id { get; set; }
     }
 }

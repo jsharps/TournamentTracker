@@ -56,3 +56,12 @@
 /TournamentVw/bin/Debug/net6.0-windows/TrackerLibrary.pdb
 /TournamentVw/Program.cs
 /TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.dll
+*.cache
+*.editorconfig
+/TrackerLibrary/obj/Release/net6.0/TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/TournamentsDB/bin/Debug/TournamentsDB.dacpac
+/TournamentsDB/bin/Debug/TournamentsDB.dll
+/TournamentsDB/bin/Debug/TournamentsDB.pdb
+/TournamentsDB/obj/Debug/TournamentsDB.dll
+/TournamentsDB/obj/Debug/TournamentsDB.pdb
+/TournamentVw/bin/Debug/net6.0-windows/TrackerUI.dll.config

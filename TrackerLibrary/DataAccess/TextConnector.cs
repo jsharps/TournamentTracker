@@ -57,5 +57,10 @@ namespace TrackerLibrary.DataAccess
             return model;
             
         }
+
+        public List<PlayerModel> GetPlayers_All()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

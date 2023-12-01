@@ -14,9 +14,32 @@ namespace TrackerUI
 {
     public partial class TeamCreateForm : Form
     {
+
+        private List<PlayerModel> availableTeamMembers = new List<PlayerModel>();
+        private List<PlayerModel> selectedTeamMembers = new List<PlayerModel>();
         public TeamCreateForm()
         {
             InitializeComponent();
+          //  CreateSampleData();
+            WireUpLists();
+        }
+
+        private void CreateSampleData()
+        {
+            availableTeamMembers.Add(new PlayerModel { FirstName = "Jeff", LastName = "Manrique" });
+            availableTeamMembers.Add(new PlayerModel { FirstName = "Belle", LastName = "Manrique" });
+
+            selectedTeamMembers.Add(new PlayerModel { FirstName = "Inigo", LastName = "Manrique" });
+            selectedTeamMembers.Add(new PlayerModel { FirstName = "Izza", LastName = "Manrique" });
+        }
+
+        private void WireUpLists()
+        {
+            teamDropDown.DataSource = availableTeamMembers;
+            teamDropDown.DisplayMember = "FullName";
+
+            memberListBox.DataSource = selectedTeamMembers;
+            memberListBox.DisplayMember = "FullName";
         }
 
         private void createMemberButton_Click(object sender, EventArgs e)
@@ -32,7 +55,7 @@ namespace TrackerUI
                 };
 
                 GlobalConfig.Connection.CreatePlayer(p);
-                
+
                 firstNameTextBox.Text = string.Empty;
                 lastNameTextBox.Text = string.Empty;
                 emailTextBox.Text = string.Empty;
@@ -47,7 +70,7 @@ namespace TrackerUI
         private bool ValidateForm()
         {
             // TODO - Add validation to the form
-            if (firstNameTextBox.TextLength * 
+            if (firstNameTextBox.TextLength *
                 lastNameTextBox.TextLength *
                 emailTextBox.TextLength *
                 phoneTextBox.TextLength == 0)

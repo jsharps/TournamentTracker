@@ -29,5 +29,12 @@
         /// The ID of the person.
         /// </summary>
         public int Id { get; set; }
+
+
+        public string FullName
+        {
+            get { return $" { FirstName } { LastName } "; }
+        }
+
     }
 }

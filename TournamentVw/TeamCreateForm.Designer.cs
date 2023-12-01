@@ -127,9 +127,9 @@
             groupBox1.Controls.Add(textBox2);
             groupBox1.Controls.Add(firstNameTextBox);
             groupBox1.Location = new Point(55, 482);
-            groupBox1.Margin = new Padding(6, 6, 6, 6);
+            groupBox1.Margin = new Padding(6);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(6, 6, 6, 6);
+            groupBox1.Padding = new Padding(6);
             groupBox1.Size = new Size(1186, 683);
             groupBox1.TabIndex = 35;
             groupBox1.TabStop = false;
@@ -153,7 +153,7 @@
             createMemberButton.Padding = new Padding(13, 14, 13, 14);
             createMemberButton.Size = new Size(293, 96);
             createMemberButton.TabIndex = 36;
-            createMemberButton.Text = "Create Member";
+            createMemberButton.Text = "Create Player";
             createMemberButton.UseVisualStyleBackColor = true;
             createMemberButton.Click += createMemberButton_Click;
             // 
@@ -289,7 +289,7 @@
             Controls.Add(teamName);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(6, 6, 6, 6);
+            Margin = new Padding(6);
             Name = "TeamCreateForm";
             Text = "TeamCreateForm";
             groupBox1.ResumeLayout(false);

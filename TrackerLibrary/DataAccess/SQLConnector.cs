@@ -12,9 +12,10 @@ namespace TrackerLibrary.DataAccess
 {
     public class SQLConnector : IDataConnection
     {
+        private const string db = "Tournaments";
         public PlayerModel CreatePlayer(PlayerModel model)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString("Tournaments")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString(db)))
             {
                 var p = new DynamicParameters();
                 p.Add("@firstName", model.FirstName);
@@ -41,7 +42,7 @@ namespace TrackerLibrary.DataAccess
         /// <returns>The prize information, include the unique identifier.</returns>
         public PrizeModel CreatePrize(PrizeModel model)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString("Tournaments")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString(db)))
             {
                 var p = new DynamicParameters();
                 p.Add("@placeNumber", model.PlaceNumber);
@@ -61,22 +62,13 @@ namespace TrackerLibrary.DataAccess
 
         public List<PlayerModel> GetPlayers_All()
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString("Tournaments")))
+            List<PlayerModel> output;
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.ConnectionString(db)))
             {
-                var p = new DynamicParameters();
-                p.Add("@placeNumber", model.PlaceNumber);
-                p.Add("@placeName", model.PlaceName);
-                p.Add("@prizeAmount", model.PrizeAmount);
-                p.Add("@prizePercentage", model.PricePercentage);
-                p.Add("@id", 0, dbType: DbType.Int32, direction: ParameterDirection.Output);
-
-                //connection.Open();
-                connection.Execute("dbo.spPrizes_Insert", p, commandType: CommandType.StoredProcedure);
-
-                model.Id = p.Get<int>("@id");
-
-                return model;
+                output = connection.Query<PlayerModel>("dbo.spPlayer_GetAll").ToList();
+               
             }
+            return output;
         }
     }
 }

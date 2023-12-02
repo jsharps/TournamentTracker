@@ -46,7 +46,7 @@
             firstNameTextBox = new TextBox();
             label3 = new Label();
             memberListBox = new ListBox();
-            deleteMemberButton = new Button();
+            removeSelectedButton = new Button();
             createTeamButtom = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -93,6 +93,7 @@
             addMemberButton.TabIndex = 34;
             addMemberButton.Text = "Add Member";
             addMemberButton.UseVisualStyleBackColor = true;
+            addMemberButton.Click += addMemberButton_Click;
             // 
             // teamDropDown
             // 
@@ -249,17 +250,18 @@
             memberListBox.Size = new Size(620, 808);
             memberListBox.TabIndex = 36;
             // 
-            // deleteMemberButton
+            // removeSelectedButton
             // 
-            deleteMemberButton.Font = new Font("Segoe UI", 8.1F, FontStyle.Regular, GraphicsUnit.Point);
-            deleteMemberButton.Location = new Point(1658, 1025);
-            deleteMemberButton.Margin = new Padding(0);
-            deleteMemberButton.Name = "deleteMemberButton";
-            deleteMemberButton.Padding = new Padding(13, 14, 13, 14);
-            deleteMemberButton.Size = new Size(264, 96);
-            deleteMemberButton.TabIndex = 41;
-            deleteMemberButton.Text = "Delete Member";
-            deleteMemberButton.UseVisualStyleBackColor = true;
+            removeSelectedButton.Font = new Font("Segoe UI", 8.1F, FontStyle.Regular, GraphicsUnit.Point);
+            removeSelectedButton.Location = new Point(1658, 1025);
+            removeSelectedButton.Margin = new Padding(0);
+            removeSelectedButton.Name = "removeSelectedButton";
+            removeSelectedButton.Padding = new Padding(13, 14, 13, 14);
+            removeSelectedButton.Size = new Size(264, 96);
+            removeSelectedButton.TabIndex = 41;
+            removeSelectedButton.Text = "Remove Selected";
+            removeSelectedButton.UseVisualStyleBackColor = true;
+            removeSelectedButton.Click += removeSelectedButton_Click;
             // 
             // createTeamButtom
             // 
@@ -279,7 +281,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1976, 1177);
             Controls.Add(createTeamButtom);
-            Controls.Add(deleteMemberButton);
+            Controls.Add(removeSelectedButton);
             Controls.Add(memberListBox);
             Controls.Add(label3);
             Controls.Add(groupBox1);
@@ -318,7 +320,7 @@
         private Label label5;
         private TextBox textBox2;
         private ListBox memberListBox;
-        private Button deleteMemberButton;
+        private Button removeSelectedButton;
         private Button createTeamButtom;
     }
 }

@@ -60,7 +60,7 @@ namespace TrackerLibrary.DataAccess
 
         public List<PlayerModel> GetPlayers_All()
         {
-            throw new NotImplementedException();
+            return PlayersFile.FullFilePath().LoadFile().ConvertToPlayerModels();
         }
     }
 }

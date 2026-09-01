@@ -54,7 +54,6 @@
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.genruntimeconfig.cache
 /TournamentVw/obj/Debug/net6.0-windows/TrackerUI.pdb
 /TournamentVw/bin/Debug/net6.0-windows/TrackerLibrary.pdb
-/TournamentVw/Program.cs
 /TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.dll
 *.cache
 *.editorconfig

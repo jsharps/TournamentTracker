@@ -61,3 +61,4 @@ C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\De
 C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\JeffManrique\source\repos\jsharps\TournamentTracker\TournamentVw\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\jmanrique\source\repos\jsharps\TournamentTracker\TournamentVw\obj\Debug\net6.0-windows\refint\TrackerUI.dll

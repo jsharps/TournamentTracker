@@ -65,3 +65,10 @@
 /TournamentsDB/obj/Debug/TournamentsDB.pdb
 /TournamentVw/bin/Debug/net6.0-windows/TrackerUI.dll.config
 /TournamentsDB/obj/Debug/*.*
+/.vs
+/TournamentVw/obj/Debug/net10.0-windows
+/TrackerLibrary/bin/Debug/net10.0/TrackerLibrary.deps.json
+/TrackerLibrary/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+/TrackerLibrary/obj/Debug/net10.0
+/TrackerLibrary/obj/Release/net6.0/TrackerLibrary.AssemblyInfo.cs
+/UpgradeLog.htm

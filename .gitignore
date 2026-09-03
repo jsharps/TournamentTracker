@@ -72,3 +72,6 @@
 /TrackerLibrary/obj/Debug/net10.0
 /TrackerLibrary/obj/Release/net6.0/TrackerLibrary.AssemblyInfo.cs
 /UpgradeLog.htm
+/TrackerUI/bin/Debug/net10.0-windows
+/TrackerUI/obj/Debug/net10.0-windows
+/TrackerUI/obj/Release/net10.0-windows

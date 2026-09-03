@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33723.286
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackerLibrary", "TrackerLibrary\TrackerLibrary.csproj", "{9DA80B33-0C1C-44F0-808F-80D552826327}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackerUI", "TournamentVw\TrackerUI.csproj", "{119FEA30-2131-4108-B415-8E10D6FEB548}"
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TournamentsDB", "TournamentsDB\TournamentsDB.sqlproj", "{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentVw", "TournamentVw\TournamentVw.csproj", "{78E41329-A9BF-8B8F-CD6C-FF3B8010B2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerUI", "TrackerUI\TrackerUI.csproj", "{D7DC4456-6308-8859-3E71-3C86822C135A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +21,20 @@ Global
 		{9DA80B33-0C1C-44F0-808F-80D552826327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA80B33-0C1C-44F0-808F-80D552826327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA80B33-0C1C-44F0-808F-80D552826327}.Release|Any CPU.Build.0 = Release|Any CPU
-		{119FEA30-2131-4108-B415-8E10D6FEB548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{119FEA30-2131-4108-B415-8E10D6FEB548}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{119FEA30-2131-4108-B415-8E10D6FEB548}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{119FEA30-2131-4108-B415-8E10D6FEB548}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26FDF794-CB4E-4AD3-A89B-CE9924C372FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{78E41329-A9BF-8B8F-CD6C-FF3B8010B2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E41329-A9BF-8B8F-CD6C-FF3B8010B2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E41329-A9BF-8B8F-CD6C-FF3B8010B2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E41329-A9BF-8B8F-CD6C-FF3B8010B2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DC4456-6308-8859-3E71-3C86822C135A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DC4456-6308-8859-3E71-3C86822C135A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DC4456-6308-8859-3E71-3C86822C135A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DC4456-6308-8859-3E71-3C86822C135A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

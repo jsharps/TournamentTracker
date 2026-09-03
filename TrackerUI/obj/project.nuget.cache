@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "QSlyiHtU7423UwoUHD3F4/m8FtNMli6GJ46MY64a1XDrJzgDyZvvGqaj7gf5zRjnYiTYUdFk46empFAw6uV5Hw==",
+  "dgSpecHash": "T9fJMp0RhYY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JeffManrique\\source\\repos\\jsharps\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jmanrique\\source\\repos\\jsharps\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmanrique\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
+    "C:\\Users\\jmanrique\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\jmanrique\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\jmanrique\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\jmanrique\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\jmanrique\\.nuget\\packages\\system.data.sqlclient\\4.9.1\\system.data.sqlclient.4.9.1.nupkg.sha512"
+  ],
   "logs": []
 }

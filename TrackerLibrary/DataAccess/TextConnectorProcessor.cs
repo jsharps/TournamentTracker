@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TrackerLibrary.Models;
 
-namespace TrackerLibrary.DataAccess.TextHelpers
+namespace TrackerLibrary.DataAccess
 {
     public static class TextConnectorProcessor
     {

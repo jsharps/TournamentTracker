@@ -93,14 +93,15 @@ namespace TrackerUI
         {
             PlayerModel p = (PlayerModel)teamDropDown.SelectedItem;
 
-            if(p != null)
+            if (p != null)
 
-    {
+            {
                 availableTeamMembers.Remove(p);
 
                 selectedTeamMembers.Add(p);
 
-                WireUpLists(); 
+                WireUpLists();
+
             }
 
         }
@@ -115,8 +116,20 @@ namespace TrackerUI
 
                 selectedTeamMembers.Remove(p);
 
-                WireUpLists();  
+                WireUpLists();
             }
+        }
+
+        private void createTeamButtom_Click(object sender, EventArgs e)
+        {
+            TeamModel t = new TeamModel();
+
+            t.TeamName = teamName.Text;
+            t.TeamMembers = selectedTeamMembers;
+
+            t = GlobalConfig.Connection.CreateTeam(t); 
+
+            // todo - clear the form
         }
     }
 }

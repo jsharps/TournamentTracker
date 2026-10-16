@@ -32,9 +32,15 @@ namespace TrackerLibrary
 
 		}
 
-		public static string ConnectionString(string name)
-		{
-			return ConfigurationManager.ConnectionStrings[name].ConnectionString;
-		}
+		// C#
+public static string ConnectionString(string name)
+{
+    var settings = ConfigurationManager.ConnectionStrings[name];
+    if (settings == null)
+    {
+        throw new ConfigurationErrorsException($"Missing connection string '{name}' in application configuration.");
+    }
+    return settings.ConnectionString;
+}
     }
 }

@@ -9,7 +9,10 @@ namespace TrackerLibrary
 {
     public class TeamModel
 	{
-		public List<PlayerModel> TeamMembers { get; set; } = new List<PlayerModel>();
-		public string TeamName { get; set; }
+        public int Id { get; set; }
+        public string TeamName { get; set; }
+        
+        public List<PlayerModel> TeamMembers { get; set; } = new List<PlayerModel>();
+		
     }
 }

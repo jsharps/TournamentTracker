@@ -1,77 +1,70 @@
 ﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# Visual Studio / .NET general .gitignore
+# Generated from GitHub's VisualStudio.gitignore with some project-specific additions removed
 ################################################################################
 
-*.vsidx
-/.vs/TournamentTracker/DesignTimeBuild/.dtbcache.v2
-/.vs/slnx.sqlite
-/.vs/ProjectEvaluation/tournamenttracker.projects.v7.bin
-/.vs/ProjectEvaluation/tournamenttracker.metadata.v7.bin
-/.vs/VSWorkspaceState.json
-/TournamentVw/obj/Release/net6.0-windows
-/.vs/TournamentTracker/v17/TestStore/0
-/TrackerLibrary/obj/Debug/net6.0/TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
-/TrackerLibrary/obj/Debug/net6.0/TrackerLibrary.assets.cache
-/TrackerLibrary/obj/project.nuget.cache
-/TrackerLibrary/obj/TrackerLibrary.csproj.nuget.dgspec.json
-/.vs/TournamentTracker/v17/.suo
-/.vs/TournamentTracker/v17/.wsuo
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.assets.cache
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.deps.json
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.designer.runtimeconfig.json
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
-/TournamentVw/obj/project.nuget.cache
-/TournamentVw/obj/TrackerUI.csproj.nuget.dgspec.json
-/.vs/TournamentTracker/v17/.futdcache.v2
-/TournamentsDB/TournamentsDB.dbmdl
-/TournamentsDB/TournamentsDB.jfm
-/.vs/TournamentTracker/FileContentIndex
-/TournamentVw/obj/project.assets.json
-/TournamentVw/obj/Release/net6.0-windows/TrackerUI.assets.cache
-/TournamentVw/obj/Release/net6.0-windows/TrackerUI.csproj.AssemblyReference.cache
-/TournamentVw/obj/Release/net6.0-windows/TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
-/TrackerLibrary/obj/Debug/net6.0/TrackerLibrary.csproj.AssemblyReference.cache
-/TrackerLibrary/obj/project.assets.json
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.csproj.AssemblyReference.cache
-/TrackerLibrary/obj/Debug/net6.0/ref/TrackerLibrary.dll
-/TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.pdb
-*.txt
-/TournamentsDB/bin/Debug/*
-/TournamentVw/bin/Debug/net6.0-windows/*
-/TournamentVw/bin/Debug/net6.0/*
-/TrackerLibrary/bin/Debug/net6.0-windows/*
-/TrackerLibrary/bin/Debug/net6.0/*
-/TournamentVw/obj/Debug/net6.0-windows/*
-/TournamentVw/obj/Debug/net6.0/*
-/TrackerLibrary/obj/Debug/net6.0-windows/*
-/TrackerLibrary/obj/Debug/net6.0/*
-*.dll
-*.pdb
-*.dacpac
-/TournamentVw/obj/Debug/net6.0-windows/apphost.exe
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.csproj.GenerateResource.cache
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.dll
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.genruntimeconfig.cache
-/TournamentVw/obj/Debug/net6.0-windows/TrackerUI.pdb
-/TournamentVw/bin/Debug/net6.0-windows/TrackerLibrary.pdb
-/TrackerLibrary/bin/Debug/net6.0/TrackerLibrary.dll
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+**/bin/
+**/obj/
+
+# Visual Studio temporary files, build results, and log files
+.vs/
 *.cache
-*.editorconfig
-/TrackerLibrary/obj/Release/net6.0/TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
-/TournamentsDB/bin/Debug/TournamentsDB.dacpac
-/TournamentsDB/bin/Debug/TournamentsDB.dll
-/TournamentsDB/bin/Debug/TournamentsDB.pdb
-/TournamentsDB/obj/Debug/TournamentsDB.dll
-/TournamentsDB/obj/Debug/TournamentsDB.pdb
-/TournamentVw/bin/Debug/net6.0-windows/TrackerUI.dll.config
-/TournamentsDB/obj/Debug/*.*
-/.vs
-/TournamentVw/obj/Debug/net10.0-windows
-/TrackerLibrary/bin/Debug/net10.0/TrackerLibrary.deps.json
-/TrackerLibrary/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
-/TrackerLibrary/obj/Debug/net10.0
-/TrackerLibrary/obj/Release/net6.0/TrackerLibrary.AssemblyInfo.cs
-/UpgradeLog.htm
-/TrackerUI/bin/Debug/net10.0-windows
-/TrackerUI/obj/Debug/net10.0-windows
-/TrackerUI/obj/Release/net10.0-windows
+*.log
+*.vsix
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Rider project files
+.idea/
+
+# NuGet
+# NuGet Packages folder
+**/packages/
+# NuGet v3's project.json files
+project.lock.json
+project.assets.json
+*.nupkg
+
+# MSBuild generated files
+*.dbmdl
+*.jfm
+*.pdb
+*.dll
+*.exe
+*.app
+*.msi
+*.msix
+*.appinstaller
+
+# OS generated files
+*.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# JetBrains Rider
+.idea/
+
+# Ignore user secrets file
+secrets.json
+
+# DotNet publish
+publish/
+
+# Other
+*.sdf
+*.ipch
+*.sqlite
+*.db
+*.db-shm
+*.db-wal

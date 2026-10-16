@@ -96,5 +96,59 @@ namespace TrackerLibrary.DataAccess
 
             File.WriteAllLines(fileName.FullFilePath(), lines);
         }
+
+        public static List<TeamModel> ConvertToTeamModels(this List<string> lines, string playerFileName)
+        {
+            List<TeamModel> output = new List<TeamModel>();
+            List<PlayerModel> players = playerFileName.FullFilePath().LoadFile().ConvertToPlayerModels();
+
+            foreach (string line in lines)
+            {
+                string[] cols = line.Split(',');
+
+                TeamModel t = new TeamModel();
+                t.Id = int.Parse(cols[0]);
+                t.TeamName = cols[1];
+
+                string[] playerIds = cols[2].Split('|');
+
+                foreach (string id in playerIds)
+                {
+                    t.TeamMembers.Add(players.Where(x => x.Id == int.Parse(id)).First());
+                }
+                output.Add(t);
+            }
+            return output;
+        }
+
+        public static void SaveToTeamFile(this List<TeamModel> models, string fileName)
+        {
+            List<string> lines = new List<string>();
+            foreach (TeamModel t in models)
+            {
+                lines.Add($"{t.Id}, {t.TeamName}, {ConvertPlayersListToString(t.TeamMembers)}");
+            }
+            File.WriteAllLines(fileName.FullFilePath(), lines);
+        }
+
+        private static string ConvertPlayersListToString(List<PlayerModel> players)
+        {
+            string output = "";
+
+            if (players.Count > 0)
+            {
+                if (players.Count == 0)
+                {
+                    return "";
+                }
+                foreach (PlayerModel p in players)
+                {
+                    output += $"{p.Id}|";
+                }
+                output = output.Substring(0, output.Length - 1);
+            }
+            return output;
+        }
+
     }
 }

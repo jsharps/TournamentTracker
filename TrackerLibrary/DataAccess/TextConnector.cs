@@ -14,13 +14,15 @@ namespace TrackerLibrary.DataAccess
         private const string PrizesFile = "PrizeModels.csv";
         private const string PlayersFile = "PlayerModels.csv";
 
+        private const string TeamFile = "TeamModels.csv";
+
         public PlayerModel CreatePlayer(PlayerModel model)
         {
             // Load the text file
             // Convert the text to List<PlayerModel>
             List<PlayerModel> player = PlayersFile.FullFilePath().LoadFile().ConvertToPlayerModels();
 
-            int currentId = player.Count > 0 ? 
+            int currentId = player.Count > 0 ?
                 player.OrderByDescending(x => x.Id).First().Id + 1 : 1;
 
             model.Id = currentId;
@@ -32,17 +34,33 @@ namespace TrackerLibrary.DataAccess
             return model;
         }
 
+
+        public TeamModel CreateTeam(TeamModel model)
+        {
+            var teams = TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PlayersFile);
+
+            int currentId = teams.Count > 0 ?
+                teams.OrderByDescending(x => x.Id).First().Id + 1 : 1;
+
+            model.Id = currentId;
+            teams.Add(model);
+
+            teams.SaveToTeamFile(TeamFile); // create this extension if not present
+
+            return model;
+        }
+
         public PrizeModel CreatePrize(PrizeModel model)
         {
             // Load the text file
             // Convert the text to List<PrizeModel>
             List<PrizeModel> prizes = PrizesFile.FullFilePath().LoadFile().ConvertToPrizeModels();
-           
+
             // Find the new ID and increment + 1
-            int currentID = prizes.Count > 0 ? 
+            int currentID = prizes.Count > 0 ?
                 prizes.OrderByDescending(x => x.Id).First().Id + 1 : 1;
 
- 
+
 
             model.Id = currentID;
 
@@ -54,12 +72,15 @@ namespace TrackerLibrary.DataAccess
             prizes.SaveToPrizeFile(PrizesFile);
 
             return model;
-            
+
         }
+
+
 
         public List<PlayerModel> GetPlayers_All()
         {
             return PlayersFile.FullFilePath().LoadFile().ConvertToPlayerModels();
         }
+
     }
 }

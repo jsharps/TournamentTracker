@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TournamentVw")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26aa003125382e95d5ec6f225c4a198160444570")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a44e4f133e3925e9a5e24c7421928236704eb7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TournamentVw")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TournamentVw")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
